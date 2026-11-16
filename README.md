@@ -85,7 +85,7 @@ Recommended pages:
 - Power BI can't connect directly: export Gold CSVs from Databricks and import them into Power BI Desktop.
 
 ## 7. Project deliverables
-- Raw source files stored in a Databricks Volume.
+- Raw source files stored in a Databricks Volume...
 - Bronze, Silver and Gold Delta tables.
 - Data-quality validation output.
 - Power BI dashboard with filters, KPIs and trend analysis.
