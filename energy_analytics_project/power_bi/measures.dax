@@ -1,0 +1,23 @@
+Total Energy Supplied (MU) =
+SUM(gold_state_consumption[total_energy_met_mu])
+
+Average Daily Energy (MU) =
+AVERAGE(gold_state_consumption[avg_daily_energy_met_mu])
+
+Maximum Peak Demand (MW) =
+MAX(gold_state_consumption[max_peak_met_mw])
+
+Total Peak Unmet (MW) =
+SUM(gold_state_consumption[total_peak_unmet_mw])
+
+States Covered =
+DISTINCTCOUNT(gold_state_consumption[state])
+
+Total Shortage Days =
+SUM(gold_power_shortage[shortage_days])
+
+Monthly Energy (MU) =
+SUM(gold_monthly_trends[total_energy_met_mu])
+
+Average Daily Shortage (MW) =
+AVERAGE(gold_power_shortage[avg_peak_unmet_mw])
